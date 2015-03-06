@@ -1,0 +1,22 @@
+mixin pet(name)
+  li.pet= name
+
+doctype
+html
+  head
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    style.
+      body {
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+      }
+  body
+    block content
+
+    h2 Animals
+
+    ul
+      +pet('cat')
+      +pet('dog')
+      +pet('pig')
+
+    script !{interactiveScript}
