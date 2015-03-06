@@ -39,6 +39,11 @@ Take a look to the `index.js` file and you will see that the module provides som
 - Include `interactive.interactiveScript` when rendering a `jade` template.
 - Set `debugLines` to `true` in the options passed to the render function.
 
+## Usage
+
+- In a desktop browser use cmd/ctrl+shift+m to enable / disable the debug mode and then click on any DOM node to open the text editor
+- In a touch device long press anywhere and the node will be highlighted. Tap on it again to open the text editor
+
 ## Help us :)
 
 As you can see `jade-interactive` requires `jade-debug` which is a fork of jade. If you like `jade-interactive` please upvote this pull request https://github.com/jadejs/jade/pull/1879 and we no longer will need to use the fork :)
